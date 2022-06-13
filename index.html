@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>tags-generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tags-input-container">
+        <input
+          type="text"
+          class="tag-input"
+          id="tag-input"
+          placeholder="Enter tag"
+        />
+        <div class="readonly-container">
+          <input type="checkbox" class="readonly" id="readonly" />
+          <label for="readonly">Readonly</label>
+        </div>
+        <button class="submit-btn">Add</button>
+      </div>
+      <div class="tag-list"><ul></ul></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
